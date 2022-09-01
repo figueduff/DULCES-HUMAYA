@@ -1,0 +1,71 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+.transparente {
+  background-color: transparent;
+}
+h1 {
+ color: blanchedalmond;
+  text-align: center;
+}
+h2{
+    color: peru;
+}
+
+.card-title {
+  color: blanchedalmond;
+}
+
+.card {
+  max-width: 16rem;
+  border: none;
+  margin: 1rem;
+}
+
+/* home */
+#home {
+  background-image: url(IMAGENES/Central/imagenCentral.png);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  align-content: center;
+}
+
+/* productos */
+
+/* locales */
+
+/* contacto */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  flex: 50%;
+}
+
+#columnaizq {
+  background-color: red;
+}
+
+#columnader {
+  background-color: blue;
+}
+
+@media screen and (max-width: 540px) {
+  .row {
+    flex-direction: column;
+  }
+}
