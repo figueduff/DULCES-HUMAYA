@@ -12,12 +12,18 @@ body {
 .transparente {
   background-color: transparent;
 }
+
 h1 {
- color: blanchedalmond;
+  color: blanchedalmond;
+  margin: 0;
   text-align: center;
+  align-content: center;
+  padding: 0.5rem;
 }
-h2{
-    color: peru;
+
+h2 {
+  color: peru;
+  padding: 1rem;
 }
 
 .card-title {
@@ -27,7 +33,30 @@ h2{
 .card {
   max-width: 16rem;
   border: none;
-  margin: 1rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  flex: 50%;
+  align-content: center;
+
+}
+
+.texto_producto {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: blanchedalmond;
+}
+
+.texto_producto_resaltado {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: saddlebrown;
 }
 
 /* home */
@@ -42,27 +71,11 @@ h2{
 
 /* productos */
 
+
+
 /* locales */
 
 /* contacto */
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-.column {
-  flex: 50%;
-}
-
-#columnaizq {
-  background-color: red;
-}
-
-#columnader {
-  background-color: blue;
-}
 
 @media screen and (max-width: 540px) {
   .row {
