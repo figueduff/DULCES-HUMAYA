@@ -26,6 +26,22 @@ h2 {
   padding: 1rem;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+/* home */
+#home {
+  background-image: url(IMAGENES/Central/imagenCentral.png);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  align-content: center;
+}
+
 .card-title {
   color: blanchedalmond;
 }
@@ -35,11 +51,11 @@ h2 {
   border: none;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
+i {
+  color: peru;
+  font-size: 4.5rem;
 }
+/* productos */
 
 .column {
   flex: 50%;
@@ -66,27 +82,51 @@ h2 {
 .btn_productos {
   color: saddlebrown;
   border-color: saddlebrown;
-  border:2;
+  border: 2;
   margin-bottom: 1rem;
 }
 
-/* home */
-#home {
-  background-image: url(IMAGENES/Central/imagenCentral.png);
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  align-items: center;
-  align-content: center;
+#productos a:hover {
+  color: saddlebrown;
+  background-color: rgb(38, 39, 39);
 }
 
-/* productos */
+#producto42 {
+  z-index: 100;
+}
+/* info */
 
-
-
+.columninfo {
+  flex: 33%;
+  text-align: center;
+  justify-content: space-between;
+}
 /* locales */
 
+/* recetas */
+#recetas{
+  background-color: rgb(46, 31, 5);
+}
+
+#recetas .card{
+  background-color:darkkhaki;
+}
+
+#recetas .card-title{
+  color:black
+}
 /* contacto */
+
+#form2{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.formu{
+  background-color:beige;
+  margin-bottom: 1rem;
+}
 
 @media screen and (max-width: 540px) {
   .row {
