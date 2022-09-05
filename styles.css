@@ -91,9 +91,7 @@ i {
   background-color: rgb(38, 39, 39);
 }
 
-#producto42 {
-  z-index: 100;
-}
+
 /* info */
 
 .columninfo {
@@ -106,6 +104,14 @@ i {
 /* recetas */
 #recetas{
   background-color: rgb(46, 31, 5);
+}
+
+.centrar{
+    margin: 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 #recetas .card{
@@ -132,4 +138,10 @@ i {
   .row {
     flex-direction: column;
   }
+ #recetas .col {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+ }
 }
