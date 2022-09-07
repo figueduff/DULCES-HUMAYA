@@ -18,8 +18,8 @@
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body class="img-fluid">
-    <div class="container">
+  <body class="centrar">
+    <div>
       <header>
         <!--Nav mobile-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -70,9 +70,8 @@
       </header>
       <main>
         <!--home-->
-        <section id="home">
+        <section id="home" class="card_home">
           <div class="card transparente">
-            <div class="card-body">
               <h5 class="card-title">DULCES DEL ALMA</h5>
               <p class="card-text">
                 Los productos HUMAYA son elaborados desde hace más de 50 con
@@ -81,21 +80,20 @@
               </p>
               <a href="#" class="btn btn-dark">Conocenos</a>
             </div>
-          </div>
+         
         </section>
         <!--productos-->
         <section id="productos">
           <h1>Productos</h1>
-          <div class="row g-0">
-            <div class="column" id="producto11">
+          <div class="g-0 productos">
+            <div id="producto1">
               <img
-                class="img-fluid"
                 src="IMAGENES/Productos/Producto1.png"
                 alt="DULCE DE LECHE TRADICIONAL"
               />
             </div>
-            <div class="column" id="producto12">
-              <h2>DULCE DE LECHE TRADICIONAL</h2>
+            <div id="producto2" class="detalle_producto">
+              <h5>DULCE DE LECHE TRADICIONAL</h5>
               <p class="texto_producto">
                 Elaboración artesanal de principio a fin, con un sabor intenso,
                 receta tradicional.
@@ -107,15 +105,14 @@
                 <a href="#" class="btn btn_productos">+ Info</a>
               </div>
             </div>
-            <div class="column" id="producto21">
+            <div id="producto3">
               <img
-                class="img-fluid"
                 src="IMAGENES/Productos/Producto2.png"
                 alt="DULCE DE LECHE TRADICIONAL"
               />
             </div>
-            <div class="column" id="producto22">
-              <h2>DULCE DE LECHE SIN AZÚCAR</h2>
+            <div id="producto4" class="detalle_producto">
+              <h5>DULCE DE LECHE SIN AZÚCAR</h5>
               <p class="texto_producto">
                 Elaboración artesanal artesanal para cuidar tu silueta sin
                 renunciar a nada, endulsado naturalmente con stevia.
@@ -127,15 +124,14 @@
                 <a href="#" class="btn btn_productos">+ Info</a>
               </div>
             </div>
-            <div class="column" id="producto31">
+            <div id="producto5">
               <img
-                class="img-fluid"
                 src="IMAGENES/Productos/Producto3.png"
                 alt="DULCE DE LECHE TRADICIONAL"
               />
             </div>
-            <div class="column" id="producto32">
-              <h2>DULCE CHOCONUTT</h2>
+            <div id="producto6" class="detalle_producto">
+              <h5>DULCE CHOCONUTT</h5>
               <p class="texto_producto">
                 Elaboración artesanal para el capricho dulce, chocolate y pasas
                 de avellana. Una delicia única.
@@ -147,60 +143,58 @@
                 <a href="#" class="btn btn_productos">+ Info</a>
               </div>
             </div>
-          </div>
-          <div class="column" id="producto41">
-            <img
-              class="img-fluid"
-              src="IMAGENES/Productos/Producto4.png"
-              alt="DULCE DE LECHE TRADICIONAL"
-            />
-            <div id="producto42">
-              <h2>ALFAJORES DE MAIZENA</h2>
-              <p class="texto_producto">
-                Relleno de 2cm de pura dulzura. Pudiendo elegir entre dulce de
-                leche tradicional, light o choconutt.
-              </p>
-              <p class="texto_producto_resaltado">
-                Presentación en caja de 6 y 12 alfajores.
-              </p>
-              <div class="contenedor_bt_productos">
-                <a href="#" class="btn btn_productos">+ Info</a>
+            <div id="destaque" class="fondobeige centrar">
+              <img
+                src="IMAGENES/Productos/Producto4_chico.png"
+                alt="ALFAJORES DE MAIZENA"
+              />
+            </div>
+            <div id="destaque2" class="fondobeige detalle_producto">
+              <div id="producto_destaque centrar">
+                <h5>ALFAJORES DE MAIZENA</h2>
+                <p class="texto_producto_destaque">
+                  Relleno de 2cm de pura dulzura. Pudiendo elegir entre dulce de
+                  leche tradicional, light o choconutt.
+                </p>
+                <p class="texto_producto_resaltado">
+                  Presentación en caja de 6 y 12 alfajores.
+                </p>
+                <div class="contenedor_bt_productos">
+                  <a href="#" class="btn btn_productos">+ Info</a>
+                </div>
               </div>
             </div>
           </div>
         </section>
+          <!--info-->
         <section id="info">
-          <div class="row g-0">
-            <div class="columninfo">
+          <h4>La mejor calidad para vos</h4>
+          <div class="info">
+            <div>
               <i class="bi bi-flower1"></i>
-              <p>100% ORGÁNICO</p>
+              <p>100%<br />ORGÁNICO</p>
             </div>
-            <div class="columninfo">
+            <div>
               <i class="bi bi-flower1"></i>
               <p>SIN TAC</p>
             </div>
-            <div class="columninfo">
+            <div>
               <i class="bi bi-flower1"></i>
-              <p>SIN CONSERVANTES</p>
+              <p>SIN<br />CONSERVANTES</p>
             </div>
           </div>
-        </section>
-        <!--locales-->
-        <section id="locales">
-          <h1>Locales</h1>
         </section>
         <!--contacto-->
         <section id="contacto">
           <h1>Contacto</h1>
-          <div class="row g-0 formu">
-            <div class="column" id="form1">
+          <div class="contacto g-0">
+            <div id="form1">
               <img
-                class="img-fluid"
                 src="IMAGENES/Productos/Producto1.png"
                 alt="DULCE DE LECHE TRADICIONAL"
               />
             </div>
-            <div class="column" id="form2">
+            <div id="form2" class="formu">
               <p>
                 Dejanos tu consulta y nuestro personal se pondra en contacto a
                 la brevedad.
@@ -213,26 +207,28 @@
                     name="email"
                     class="form-control"
                     id="email"
-                    placeholder="email"
+                    required
                   />
                 </div>
                 <div class="form-group">
-                  <label for="nombre">Password</label>
+                  <label for="nombre">Nombre</label>
                   <input
                     type="text"
                     class="form-control"
                     name="nombre"
                     id="nombre"
-                    placeholder="nombre"
+                    required
                   />
                 </div>
                 <div class="form-group">
-                  <label for="mensaje">Example textarea</label>
+                  <label for="mensaje">Mensaje</label>
                   <textarea
+                    type="text"
                     class="form-control"
                     name="mensaje"
                     id="mensaje"
                     rows="3"
+                    required
                   ></textarea>
                 </div>
                 <div class="contenedor_bt_productos">
@@ -245,54 +241,89 @@
         <!--recetas-->
         <section id="recetas">
           <h1>Recetas</h1>
-          <div class="row row-cols-1 row-cols-md-3 centrar g-4">
-            <div class="col">
-              <div class="card h-100">
-                <img src="IMAGENES/Productos/Producto1.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Galletitas</h5>
-                  <p class="card-text">This is a longer card with supporting text below.</p>
-                </div>
-                <div class="contenedor_bt_productos">
-                  <a href="#" class="btn btn_productos">+ Info</a>
-                </div>
+          <div class="recetas">
+            <div class="card h-100">
+              <img
+                src="IMAGENES/Productos/Producto1.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Galletitas</h5>
+                <p class="card-text">
+                  Estas galletitas bla bla para hacerlas, simple, baratito y rico.
+                </p>
+              </div>
+              <div class="contenedor_bt_productos">
+                <a href="#" class="btn btn_productos">+ Info</a>
               </div>
             </div>
-            <div class="col">
-              <div class="card h-100">
-                <img src="IMAGENES/Productos/Producto1.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Conitos</h5>
-                  <p class="card-text">This is a short card.This is a longer.</p>
-                </div>
-                <div class="contenedor_bt_productos">
-                  <a href="#" class="btn btn_productos">+ Info</a>
-                </div>
+            <div class="card h-100">
+              <img
+                src="IMAGENES/Productos/Producto1.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Conitos</h5>
+                <p class="card-text">Estas galletitas bla bla para hacerlas, simple, baratito y rico.</p>
+              </div>
+              <div class="contenedor_bt_productos">
+                <a href="#" class="btn btn_productos">+ Info</a>
               </div>
             </div>
-            <div class="col">
-              <div class="card h-100">
-                <img src="IMAGENES/Productos/Producto1.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Tortas</h5>
-                  <p class="card-text">This is a longer card with supporting.</p>
-                </div>
-                <div class="contenedor_bt_productos">
-                  <a href="#" class="btn btn_productos">+ Info</a>
-                </div>
+            <div class="card h-100">
+              <img
+                src="IMAGENES/Productos/Producto1.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Tortas</h5>
+                <p class="card-text">Estas galletitas bla bla para hacerlas, simple, baratito y rico.</p>
+              </div>
+              <div class="contenedor_bt_productos">
+                <a href="#" class="btn btn_productos">+ Info</a>
               </div>
             </div>
           </div>
+          <h1>Encontranos en:</h1>
         </section>
       </main>
-      <footer>
-        <div class="row">
-          <div class="columnfooter"></div>
-          <div class="columnfooter"></div>
-          <div class="columnfooter"></div>
-          <div class="columnfooter"></div>
-          <div class="columnfooter"></div>
+         <!--footer-->
+      <footer id="footer">
+        <div class="footer centrar">
+          <div id="menu1">
+            <img id="logo" class="img-fluid" src="IMAGENES/Logo/LogoHumaya100x100.png" alt="">
+          </div>
+          <div class="vertical" id="menu2">
+            <strong>Menu</strong>
+            <a href="#">Home</a>
+            <a href="#">Productos</a>
+            <a href="#">Locales</a>
+            <a href="#">Contacto</a>
+          </div>
+          <div class="vertical" id="menu3">
+            <strong>Navegacion</strong>
+            <a href="#">Home</a>
+            <a href="#">Productos</a>
+            <a href="#">Locales</a>
+            <a href="#">Contacto</a>
+          </div>
+          <div class="vertical" id="menu4">
+           <strong>Redes</strong>
+            <a href="#">Home</a>
+            <a href="#">Productos</a>
+            <a href="#">Locales</a>
+            <a href="#">Contacto</a>
+          </div>
+          <div id="div_mapa" class="vertical">
+           <strong>Ubicacion</strong>
+            <p>Montes de Oca 2356, CABA</p>
+            <img class="img-fluid" id="mapa" src="IMAGENES/Productos/mapa2.jpg" alt="" />
+          </div>
         </div>
+        <div id="fin"><small>Javier Figueredo</small></div>
       </footer>
     </div>
     <!--Scripts de Bootstrap-->
