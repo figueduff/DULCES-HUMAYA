@@ -190,6 +190,7 @@ i {
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   gap: 10px;
+  padding: 0px 10px;
 }
 
 #recetas {
@@ -239,7 +240,7 @@ textarea {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 5px 5px;
-  padding-left: 15px;
+  padding: 0px 15px;
   background-color: black;
 }
 #logo {
@@ -247,14 +248,20 @@ textarea {
   width: 150px;
 }
 
+#menu1{
+  display: grid;
+  place-content: center;
+}
 #mapa {
   width: 150px;
+  margin-bottom: 1rem;
 }
 
 .vertical {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
 }
+
 
 #footer strong {
   color: peru;
@@ -274,6 +281,12 @@ textarea {
 
 #footer p {
   color: blanchedalmond;
+}
+
+
+.icon_tamanio {
+  margin:.5rem;
+  font-size: 2rem;
 }
 
 #fin {
@@ -324,9 +337,9 @@ textarea {
     min-width: 100px;
   }
 
-  #menu1{
-  grid-row-start: 3;
-  grid-column: 1 / 3;
-  justify-self: center;
+  #menu1 {
+    grid-row-start: 3;
+    grid-column: 1 / 3;
+    justify-self: center;
   }
 }
