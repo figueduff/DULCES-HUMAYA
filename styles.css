@@ -63,12 +63,17 @@ img {
   align-items: center;
 }
 
+#card_principal {
+  margin-left: 20px;
+  max-width: 23rem;
+  font-size:x-large;
+}
+
 .card-title {
   color: blanchedalmond;
 }
 
 .card {
-  max-width: 16rem;
   border: none;
 }
 
@@ -103,13 +108,13 @@ h5 {
 .texto_producto_resaltado {
   padding-left: 2rem;
   padding-right: 2rem;
-  color: saddlebrown;
+  color: peru;
   font-weight: bold;
 }
 
 .btn_productos {
-  color: saddlebrown;
-  border-color: saddlebrown;
+  color: peru;
+  border-color: peru;
   border: solid 3px;
   border-radius: 0;
   margin-top: 2rem;
@@ -117,9 +122,14 @@ h5 {
   padding: 0px 15px;
 }
 
+.btn_productos:hover {
+  color: saddlebrown;
+  background-color: peru;
+}
+
 #productos a:hover {
   color: saddlebrown;
-  background-color: rgb(38, 39, 39);
+  background-color: peru;
 }
 
 .detalle_producto {
@@ -227,10 +237,24 @@ i {
 input[type="text"],
 input[type="email"] {
   background-color: rgb(64, 55, 39);
+  color: blanchedalmond;
+}
+input[type="text"]:focus,
+input[type="email"]:focus {
+  background-color: rgb(64, 55, 39);
+  color: blanchedalmond;
+  border-color: peru;
+}
+input[type="text"]:focus-within,
+input[type="email"]:focus-within {
+  box-shadow: none !important;
 }
 
 textarea {
   background-color: rgb(64, 55, 39) !important;
+  color: blanchedalmond !important;
+  border-color: peru !important;
+  box-shadow: none !important;
 }
 
 /* footer */
@@ -247,7 +271,7 @@ textarea {
   width: 150px;
 }
 
-#menu1{
+#menu1 {
   display: grid;
   place-content: center;
 }
@@ -260,7 +284,6 @@ textarea {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
 }
-
 
 #footer strong {
   color: peru;
@@ -282,10 +305,13 @@ textarea {
   color: blanchedalmond;
 }
 
-
 .icon_tamanio {
-  margin:.5rem;
+  margin: 0.5rem;
   font-size: 2rem;
+}
+
+.icon_tamanio:hover {
+  color: peru;
 }
 
 #fin {
@@ -297,6 +323,11 @@ textarea {
   #home {
     background-size: auto;
     height: 300px;
+  }
+
+  #home #card_principal{
+    max-width: 16rem;
+    font-size:medium;
   }
 
   .footer {
@@ -314,10 +345,6 @@ textarea {
   #producto3 {
     grid-column-start: 1;
     grid-column-end: 2;
-  }
-
-  .btn_productos {
-    margin-top: 1rem;
   }
 
   .contacto {
@@ -340,5 +367,9 @@ textarea {
     grid-row-start: 3;
     grid-column: 1 / 3;
     justify-self: center;
+  }
+
+  .btn_productos {
+    margin-top: 1rem;
   }
 }
