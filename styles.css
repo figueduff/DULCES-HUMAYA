@@ -47,12 +47,19 @@ img {
 }
 
 /* home */
-#home {
+/* funciona ok #home {
   background-image: url(IMAGENES/Central/imagenCentral.png);
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
   align-content: center;
+  height: 100vh;
+}*/
+
+#home {
+  background-image: url(IMAGENES/Central/imagenCentral.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
 }
 
