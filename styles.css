@@ -47,21 +47,15 @@ img {
 }
 
 /* home */
-/* funciona ok #home {
+#home {
   background-image: url(IMAGENES/Central/imagenCentral.png);
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
   align-content: center;
   height: 100vh;
-}*/
-
-#home {
-  background-image: url(IMAGENES/Central/imagenCentral.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
 }
+
 
 .card_home {
   display: flex;
@@ -74,6 +68,7 @@ img {
   margin-left: 20px;
   max-width: 23rem;
   font-size:x-large;
+  margin-top: 5rem;
 }
 
 .card-title {
@@ -335,6 +330,7 @@ textarea {
   #home #card_principal{
     max-width: 16rem;
     font-size:medium;
+    margin-top: 3rem;
   }
 
   .footer {
